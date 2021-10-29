@@ -1,0 +1,118 @@
+[
+   {
+    "id":"react-js",
+    "name":"React Js",
+    "heading":["React Js", "Development"],
+    "subHeading":["EXPECT", " NOTHING"," LESS THAN ", "PERFECT."]
+   },
+   {
+    "id":"vue-js",
+    "name":"Vue Js",
+    "heading":["Vue Js", " Development"],
+    "subHeading":["Creativity", " bleeds"," from the pen of  ", "inspiration."]  
+   },
+   {
+    "id":"website-design",
+    "name":"Website Design",
+    "heading":["Website" ," Design"],
+    "subHeading":["Getting", " your message"," to the ", "world…"]
+   },  
+   {
+    "id":"website-redesign",
+    "name":"Website Redsign",
+    "heading":["Website", " Redsign"],
+    "subHeading":["EXPECT", " NOTHING"," LESS THAN ", "PERFECT."]
+   },
+   {
+    "id":"front-end-development",
+    "name":"Front-End ",
+    "heading":["Front-End", "Development"],
+    "subHeading":["We build", " things"," in the ", "pixel aether."]   
+   },
+   {
+    "id":"node-js-development",
+    "name":"Node Js",
+    "heading":["Node Js", "Development"],
+    "subHeading":["Imagination", " turns"," to ", "innovation."]   
+   },
+   {
+    "id":"ecommerce-development",
+    "name":"eCommerce",
+    "heading":["eCommerce", "Development"],
+    "subHeading":["The", " web"," is our ", "playground."]
+   },   
+   {
+    "id":"laravel-development",
+    "name":"Laravel",
+    "heading":["Laravel", "Development"],
+    "subHeading":["We turn", " good ideas"," into ", "great products."]
+   },   
+   {
+    "id":"php-development",
+    "name":"PHP",
+    "heading":["PHP", "Development"],
+    "subHeading":["Web", " solutions"," that build ", "businesses."]
+   },   
+   {
+    "id":"back-end-development",
+    "name":"Back-End",
+    "heading":["Bank-End ", "Development"],
+    "subHeading":["Where", " creativity"," meets ", "technology."]
+   },   
+   {
+    "id":"full-stack-development",
+    "name":"Full Stack",
+    "heading":["Full Stack ", "Development"],
+    "subHeading":["Where", " expectations"," meet ", "excellence."]
+   },   
+
+   {
+    "id":"mern-stack-development",
+    "name":"MERN",
+    "heading":["MERN Stack", "Development"],
+    "subHeading":["Where", " passion"," meets ", "profession."]
+   },   
+   {
+    "id":"jam-stack-development",
+    "name":"JAM",
+    "heading":["JAM Stack", "Development"],
+    "subHeading":["The", " future","  of ", "business."]
+   },   
+   {
+    "id":"react-django-development",
+    "name":"React & Django",
+    "heading":["React & Django", "Development"],
+    "subHeading":["", " Perfect"," & ", "Productive."]
+   }, 
+   {
+    "id":"custom-ecommerce-development",
+    "name":"Custom eCommerce",
+    "heading":["Custom eCommerce", "Development"],
+    "subHeading":["We", " develop websites"," that ignite ", "your business."]
+   },   
+   {
+    "id":"magento-development",
+    "name":"Magento",
+    "heading":["Magento ", "Development"],
+    "subHeading":["Where", " affordability"," meets ", "professionalism."]
+   },   
+   {
+    "id":"shopify-development",
+    "name":"Shopify",
+    "heading":["Shopify ", "Development"],
+    "subHeading":["Your", " growth"," partner. ", ""]
+   },  
+   {
+    "id":"woocommerce-development",
+    "name":"WooCommerce",
+    "heading":["WooCommerce ", "Development"],
+    "subHeading":["", " Results"," driven ", "websites."]
+   },  
+   {
+    "id":"wordpress-development",
+    "name":"WordPress",
+    "heading":["WordPress ", "Development"],
+    "subHeading":["If you can", " think it,"," we can ", "web it.."]
+   }   
+]
+
