@@ -3,7 +3,43 @@ import React, { useEffect, useState } from 'react'
 import Banner from '../../components/Banner'
 import Layout from '../../components/layout/Layout'
 import ButtonBottomNavigators from '../../components/navigators/ButtonBottomNavigators'
-import services from '../../assets/data/services.json'
+
+
+
+
+
+export const getStaticPaths = async () =>{
+    const res = await fetch("http://localhost:8080/services")
+    const data = await res.json()
+
+    const paths = data.map(item => {
+        return {
+          params: { servicesId: item.id.toString() }
+        }
+      })
+    return {
+        paths,
+        fallback:false
+    }
+}
+
+
+
+export const getStaticProps = async (context)=>{
+    const id = context.params.servicesId
+    const res = await fetch("http://localhost:8080/services/"+id)
+    const data = await res.json()
+    return {
+        props:{
+            service:data
+        }
+    }
+}
+
+
+
+
+
 
 // const bottomNavigators =[
 //     {
@@ -30,7 +66,7 @@ import services from '../../assets/data/services.json'
 //      }
 
 // }
-export default function Home() {
+export default function Home({service}) {
     const [bannerContent,setBannerContent] = useState({
         heading:[],
         subHeading:[],
@@ -45,42 +81,42 @@ export default function Home() {
     })
     const [bottomNavigators,setBottomNavigators] = useState([])
     // console.log(bannerContent)
-    const {query} = useRouter() 
-    let id = query.servicesId
+    
+   
     useEffect( ()=>{
      let item
-        if(id){
+        // if(id){
 
-             item = services.filter(service => service.id == id)
-             console.log('id')
-        }
+        //      item = services.filter(service => service.id == id)
+        //      console.log('id')
+        // }
       
     setBottomNavigators(()=>{
-       if(id){
+      
         return[
             {
-                text:item[0].name + " Projects",
-                link:'/projects/'+item[0].id
+                text:service.name + " Projects",
+                link:'/projects/'+service.id
             },
             {
-                text: "Why " + item[0].name,
-                link:'/why/'+item[0].id
+                text: "Why " + service.name,
+                link:'/why/'+service.id
             },
             {
                 text:'More Services',
                 link:'/services'
             },
-        ]}
+        ]
     })
      setBannerContent(prevState=>{
-        if (id){  
+        
         return {
                 ...prevState,
-                heading:[...item[0].heading],
-                subHeading:[...item[0].subHeading]
-            }}
+                heading:[...service.heading],
+                subHeading:[...service.subHeading]
+            }
         })
-    },[id])
+    },[])
    
 return (
 <>

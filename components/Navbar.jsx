@@ -8,8 +8,8 @@ const Navbar = () => {
         <nav>
             <ul className='first_nav_list'>
                 <li>
-                    <Link href='/' >
-                        <Image className='no-circle' src={logo} width='35' height='35'/>
+                    <Link passHref href='/' >
+                        <Image alt='Tensor Solutions' className='no-circle' src={logo} width='35' height='35'/>
                     </Link>
                 </li>
             </ul>

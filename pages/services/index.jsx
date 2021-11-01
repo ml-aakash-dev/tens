@@ -92,7 +92,7 @@ return (
                                     01
                                 </span>
                                 </h4>
-                                    <Link href='services/front-end-development'>
+                                    <Link passHref href='services/front-end-development' >
                                         
                                         <h2 className='heading text-animation'>
                                                 <span>
@@ -101,7 +101,7 @@ return (
                                         </h2>
                                     </Link>
                                     <div className="service_img">
-                                         <Image src={img}/>
+                                         <Image alt='baad me' src={img}/>
                                     </div>
                                 <p className='text-animation'>
                                     <span>
@@ -110,25 +110,25 @@ return (
                                     </span>
                                 </p>
                                     <ul  className='mt2 sub_services_list'>
-                                        <Link href='services/website-design'>
+                                        <Link passHref href='services/website-design'>
                                             <li className='text-animation'> <span>
                                                 Website Design
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/website-redesign'>
+                                        <Link passHref href='services/website-redesign'>
                                             <li className='text-animation'> <span>
                                                 Website Redesign
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/react-js'>
+                                        <Link passHref href='services/react-js'>
                                             <li className='text-animation'> <span>
                                                 React Js Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/vue-js'>
+                                        <Link passHref href='services/vue-js'>
                                             <li className='text-animation'> <span>
                                                 Vue Js Development
                                                 </span> 
@@ -140,7 +140,7 @@ return (
                            
                             </div>
                             <div className="service_card_img">
-                                <Image src={img}/>
+                                <Image alt='baad me' src={img}/>
                             </div>
                         </div>
                         <div className="service_card">
@@ -151,7 +151,7 @@ return (
                                     02
                                 </span>
                                 </h4>
-                                    <Link href='services/back-end-development'>
+                                    <Link passHref href='services/back-end-development'>
                                         <h2 className='heading text-animation'>
                                             <span>
                                                 Back End Development
@@ -159,7 +159,7 @@ return (
                                         </h2>
                                     </Link>
                                     <div className="service_img">
-                                         <Image src={img}/>
+                                         <Image alt='baad me' src={img}/>
                                     </div>
                                 <p className='text-animation'>
                                     <span>
@@ -168,25 +168,25 @@ return (
                                     </span>
                                 </p>
                                 <ul  className='mt2 sub_services_list'>
-                                        <Link href='services/node-js-development'>
+                                        <Link passHref href='services/node-js-development'>
                                             <li className='text-animation'> <span>
                                                 Node Js Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/ecommerce-development'>
+                                        <Link passHref href='services/ecommerce-development'>
                                             <li className='text-animation'> <span>
                                                eCommerce Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/laravel-development'>
+                                        <Link passHref href='services/laravel-development'>
                                             <li className='text-animation'> <span>
                                                 Laravel Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/php-development'>
+                                        <Link passHref href='services/php-development'>
                                             <li className='text-animation'> <span>
                                                 PHP Development
                                                 </span> 
@@ -196,7 +196,7 @@ return (
                                     </ul>
                             </div>
                             <div className="service_card_img">
-                                <Image src={img}/>
+                                <Image alt='baad me' src={img}/>
                             </div>
                         </div>
                         <div className="service_card">
@@ -207,7 +207,7 @@ return (
                                 </span>
                                 </h4>
                                 
-                                <Link href='services/full-stack-development'>
+                                <Link passHref href='services/full-stack-development'>
                                     <h2 className='heading text-animation'>
                                         <span>
                                             Full Stack Development
@@ -215,7 +215,7 @@ return (
                                     </h2>
                                 </Link>
                                 <div className="service_img">
-                                         <Image src={img}/>
+                                         <Image alt='baad me' src={img}/>
                                     </div>
                                 <p className='text-animation'>
                                     <span>
@@ -224,19 +224,19 @@ return (
                                     </span>
                                 </p>
                                 <ul  className='mt2 sub_services_list'>
-                                        <Link href='mern-stack-development'>
+                                        <Link passHref href='mern-stack-development'>
                                             <li className='text-animation'> <span>
                                                 MERN Stack Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='jam-stack-development'>
+                                        <Link passHref href='jam-stack-development'>
                                             <li className='text-animation'> <span>
                                                 JAM Stack Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='react-django-develoment'>
+                                        <Link passHref href='react-django-develoment'>
                                             <li className='text-animation'> <span>
                                                  React & Django Development
                                                 </span> 
@@ -248,7 +248,7 @@ return (
                      
                             </div>
                             <div className="service_card_img">
-                                <Image src={img}/>
+                                <Image alt='baad me' src={img}/>
                             </div>
                         </div>
                         <div className="service_card">
@@ -258,7 +258,7 @@ return (
                                     04
                                 </span>
                                 </h4>
-                                <Link href='services/ecommerce-development'>
+                                <Link passHref href='services/ecommerce-development'>
                                     <h2 className='heading text-animation'>
                                         <span>
                                             eCommerce Website Development
@@ -266,7 +266,7 @@ return (
                                     </h2>
                                 </Link>
                                 <div className="service_img">
-                                         <Image src={img}/>
+                                         <Image alt='baad me' src={img}/>
                                     </div>
                                 <p className='text-animation'>
                                     <span>
@@ -275,25 +275,25 @@ return (
                                     </span>
                                 </p>
                                 <ul  className='mt2 sub_services_list'>
-                                        <Link href='services/custom-ecommerce-development'>
+                                        <Link passHref href='services/custom-ecommerce-development'>
                                             <li className='text-animation'> <span>
                                                 Custom eCommerce Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/magento-development'>
+                                        <Link passHref href='services/magento-development'>
                                             <li className='text-animation'> <span>
                                                 Magento Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/shopify-development'>
+                                        <Link passHref href='services/shopify-development'>
                                             <li className='text-animation'> <span>
                                                 Shopify Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/woocommerce-development'>
+                                        <Link passHref href='services/woocommerce-development'>
                                             <li className='text-animation'> <span>
                                                  WooCommerce Development
                                                 </span> 
@@ -304,7 +304,7 @@ return (
                                     </ul>
                                     </div>
                             <div className="service_card_img">
-                                <Image src={img}/>
+                                <Image alt='baad me' src={img}/>
                             </div>
                         </div>
                         <div className="service_card">
@@ -314,7 +314,7 @@ return (
                                     05
                                 </span>
                                 </h4>
-                                <Link href='services/wordpress-development'>
+                                <Link passHref href='services/wordpress-development'>
                                     <h2 className='heading text-animation'>
                                         <span>
                                             WordPress Development
@@ -322,7 +322,7 @@ return (
                                     </h2>
                                 </Link>
                                 <div className="service_img">
-                                         <Image src={img}/>
+                                         <Image alt='baad me' src={img}/>
                                     </div>
                                 <p className='text-animation'>
                                     <span>
@@ -331,25 +331,25 @@ return (
                                     </span>
                                 </p>
                                 <ul  className='mt2 sub_services_list'>
-                                        <Link href='services/custom-ecommerce-development'>
+                                        <Link passHref href='services/custom-ecommerce-development'>
                                             <li className='text-animation'> <span>
                                                 Custom eCommerce Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/magento-development'>
+                                        <Link passHref href='services/magento-development'>
                                             <li className='text-animation'> <span>
                                                 Magento Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/shopify-development'>
+                                        <Link passHref href='services/shopify-development'>
                                             <li className='text-animation'> <span>
                                                 Shopify Development
                                                 </span> 
                                                 </li>
                                         </Link>
-                                        <Link href='services/woocommerce-development'>
+                                        <Link passHref href='services/woocommerce-development'>
                                             <li className='text-animation'> <span>
                                                  WooCommerce Development
                                                 </span> 
@@ -360,7 +360,7 @@ return (
                                     </ul>
                                     </div>
                             <div className="service_card_img">
-                                <Image src={img}/>
+                                <Image alt='baad me' src={img}/>
                             </div>
                         </div>
                         

@@ -122,7 +122,9 @@ const closeFilter =()=>{
                         <a></a>
                     </Link>
                     <div className="Project_Image">
-                        <Image src={khansortium}/>
+                        <Image alt='baad me alt dalengay' src={khansortium}/>
+
+
                     </div>
                     <div className="Project_Content">
                        <h4 className='heading text-animation'><span>Khansortium</span></h4>
@@ -138,7 +140,7 @@ const closeFilter =()=>{
     
                 <div  data-category='logo-design' className="Project_Card">
                     <div className="Project_Image">
-                        <Image src={we_fix_phones}/>
+                        <Image alt='baad me alt dalengay' src={we_fix_phones}/>
                     </div>
                     <div className="Project_Content">
                        <h4 className='heading text-animation'><span>We Fix Phones</span></h4>
@@ -154,7 +156,7 @@ const closeFilter =()=>{
                    
                 <div data-category='back-end-development'  className="Project_Card">
                     <div className="Project_Image">
-                        <Image src={gamma_vr}/>
+                        <Image alt='baad me alt dalengay' src={gamma_vr}/>
                     </div>
                     <div className="Project_Content">
                        <h4 className='heading text-animation'><span>Gamma Vr</span></h4>
@@ -170,7 +172,7 @@ const closeFilter =()=>{
             
                     <div data-category='full-stack-development'  className="Project_Card">
                         <div className="Project_Image">
-                            <Image src={wholecell2}/>
+                            <Image alt='baad me alt dalengay' src={wholecell2}/>
                         </div>
                         <div data-category='full-stack-development' className="Project_Content">
                         <h4 className='heading text-animation'><span>Whole Cell Accessories</span></h4>
@@ -186,7 +188,7 @@ const closeFilter =()=>{
                    
                 <div data-category='full-stack-development'  className="Project_Card">
                     <div className="Project_Image">
-                        <Image src={crescent_cricket_club2}/>
+                        <Image alt='baad me alt dalengay' src={crescent_cricket_club2}/>
                     </div>
                     <div data-category='full-stack-development' className="Project_Content">
                        <h4 className='heading text-animation'><span>Crescent Cricket Club</span></h4>
@@ -200,7 +202,7 @@ const closeFilter =()=>{
                 
                 <div data-category='full-stack-development'  className="Project_Card">
                     <div className="Project_Image">
-                        <Image src={markaz_ul_fiqh2}/>
+                        <Image alt='baad me alt dalengay' src={markaz_ul_fiqh2}/>
                     </div>
                     <div data-category='full-stack-development' className="Project_Content">
                        <h4 className='heading text-animation'><span>Markaz Ul Fiqh</span></h4>

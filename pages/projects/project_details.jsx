@@ -2,7 +2,7 @@ import gsap from "gsap"
 import { useEffect } from "react"
 import Layout from "../../components/layout/Layout"
 import Image from "next/image"
-import banner from '../../assets/images/banner.jpg'
+import bannerImg from '../../assets/images/banner.jpg'
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import portfolio from '../../assets/images/portfolio.jpg'
 import portrait from '../../assets/images/portrait.jpg'
@@ -108,7 +108,7 @@ const ProjectDetail =()=>{
                     Visit Site
                 </span>
               </a>
-                    <Image  src={banner}/>
+                    <Image alt='baad me'  src={bannerImg}/>
                 </div>
             
 
@@ -116,7 +116,7 @@ const ProjectDetail =()=>{
             </div>
             <div className="portfolio_images">
                 <div className="portfolio_image">
-                    <Image src={portfolio}/>
+                    <Image alt='baad me' src={portfolio}/>
                 </div>
                 <div className="portfolio_image">
                     <div className="portfolio_half displaySmallNone">
@@ -125,38 +125,38 @@ const ProjectDetail =()=>{
                     </div>
                     <div className="portfolio_half">
 
-                    <Image  src={portrait}/>
+                    <Image alt='baad me'  src={portrait}/>
                     </div>
                 </div>
                 <div className="portfolio_image">
-                    <Image src={portfolio}/>
+                    <Image alt='baad me' src={portfolio}/>
                 </div>
                 {/* <div className="portfolio_image"></div> */}
                 <div className="portfolio_image" >
-                    <Image src={portfolio}/>
+                    <Image alt='baad me' src={portfolio}/>
                 </div>
                 <div className="portfolio_image">
-                    <Image src={portfolio}/>
+                    <Image alt='baad me' src={portfolio}/>
                 </div>
                 <div className="portfolio_image">
                     <div className="portfolio_half">
-                    <Image src={portrait}/> 
+                    <Image alt='baad me' src={portrait}/> 
 
                     </div>
                     <div className="portfolio_half">
 
-                    <Image  src={portrait}/>
+                    <Image alt='baad me'  src={portrait}/>
                     </div>
                 </div>
                 <div className="portfolio_image">
-                    <Image src={portfolio}/>
+                    <Image alt='baad me' src={portfolio}/>
                 </div>
                 <div className="portfolio_image">
-                    <Image src={portfolio}/>
+                    <Image alt='baad me' src={portfolio}/>
                 </div>
                 <div className="portfolio_image">
                     <div className="portfolio_half">
-                    <Image src={portrait}/> 
+                    <Image alt='baad me' src={portrait}/> 
 
                     </div>
                     <div className="portfolio_half displaySmallNone">

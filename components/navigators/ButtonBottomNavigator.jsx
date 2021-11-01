@@ -2,7 +2,7 @@ import BannerNavArrImg from "../BannerNavArrImg"
 import Link from 'next/link'
 
 const ButtonBottomNavigator =({text,link})=>{
-    return <Link href={link}>
+    return <Link  passHref href={link}>
                 <div className="banner_navigator big-circle">
                     <h5 className='pointerEventNone'>
                        {text}

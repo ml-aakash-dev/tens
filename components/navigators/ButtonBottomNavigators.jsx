@@ -5,7 +5,7 @@ const ButtonBottomNavigators =({navigators})=>{
    
     return     <div className="banner_navigators">
         {
-            navigators?.map(({text,link})=> <ButtonBottomNavigator text={text}link={link}/>)
+            navigators?.map(({text,link})=> <ButtonBottomNavigator key={text+link} text={text}link={link}/>)
         }
 
 

@@ -1,4 +1,6 @@
-[
+{
+   "services":
+   [
    {
     "id":"react-js",
     "name":"React Js",
@@ -116,3 +118,4 @@
    }   
 ]
 
+}
